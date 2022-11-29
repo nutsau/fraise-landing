@@ -1,1 +1,67 @@
 
+body {
+	font-family: "open Sans", sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.slider{
+	width: 40%;
+}
+
+.brand-logo {
+	width: 40%;
+	height: 10%;
+	margin-left: 20px;
+}
+
+h1 {
+	top:240px;
+	width: 100%;
+	font-size: 10px;
+	font-weight: lighter;
+	font-family: roboto;
+}
+
+h2 figcaption {
+	font-weight: lighter;
+	font-family: roboto;
+}
+
+.parallax-container{
+	height: 450px;
+	background-size: cover;
+}
+
+.social {
+	float: right;
+	margin-right: 20px;
+}
+
+.page-footer {
+	background-color: black;
+}
+
+div {
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
