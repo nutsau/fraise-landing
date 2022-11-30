@@ -1,53 +1,82 @@
 body {
-	font-family: "open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-	font-size: 40px;
+ font-size: 40px
 }
 
 .slider{
-	width: 40%;
+ height: 500px;
+  width: 100%;
 }
 
 .brand-logo {
-	width: 40%;
-	height: 10%;
-	margin-left: 20px;
+width: 10%;
+  height: 10%;
+  margin-left: 20px;
 }
 
 h1 {
-	top:240px;
-	width: 100%;
-	font-size: 10px;
-	font-weight: lighter;
-	font-family: roboto;
+  top: 240px;
+  width: 100%;
+  font-size: 70px;
+  font-weight: lighter;
+  font-family: roboto; 
 }
 
-h2 figcaption {
-	font-weight: lighter;
-	font-family: roboto;
+h2, h6, figcaption {
+  font-weight: lighter;
+  font-family: roboto; 
+}
+
+p {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: lighter;
+  display: block;
 }
 
 .parallax-container{
-	height: 450px;
-	background-size: cover;
+  height: 450px;
+  background-size: cover;
 }
 
 .social {
-	float: right;
-	margin-right: 20px;
+  float: right;
+  margin-right: 20px;
+}
+
+.page-footer {
+  background-color: black;
 }
 
 div {
-	background-size: cover;
+  background-size: cover;
 }
 
-.second-half {
-	margin-right: 350px;
-	margin-left: 10px;
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
 }
-
-.slider {
-	width:40%;
+  h7 {
+    font-size: 10px;
+  }
+  /*
+  .second-half {
+    margin-right: 350px;
+    margin-left: 10px;
+  }
+  .brand-logo {
+    width: 40%;
+  }
+  .slider {
+   width: 40%
+  }
+  
+    
+ 
 }
