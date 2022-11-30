@@ -1,4 +1,3 @@
-
 body {
 	font-family: "open Sans", sans-serif;
 }
@@ -40,28 +39,15 @@ h2 figcaption {
 	margin-right: 20px;
 }
 
-.page-footer {
-	background-color: black;
-}
-
 div {
 	background-size: cover;
 }
 
+.second-half {
+	margin-right: 350px;
+	margin-left: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slider {
+	width:40%;
+}
